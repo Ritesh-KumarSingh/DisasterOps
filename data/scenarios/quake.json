@@ -1,0 +1,243 @@
+{
+  "scenario": "quake",
+  "description": "Earthquake strikes Old Delhi — burst of structural and medical emergencies",
+  "ticks": [
+    {
+      "tick": 1,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "structural",
+          "severity": 5,
+          "lat": 28.6505,
+          "lng": 77.2315,
+          "location_desc": "Jama Masjid area — partial minaret collapse",
+          "density_index": 0.95,
+          "infra_weight": 1.0,
+          "required_skills": ["search", "extraction"]
+        },
+        {
+          "type": "structural",
+          "severity": 5,
+          "lat": 28.6470,
+          "lng": 77.2270,
+          "location_desc": "Fatehpuri Masjid bazaar, multi-story collapse",
+          "density_index": 0.9,
+          "infra_weight": 0.5,
+          "required_skills": ["search", "extraction"]
+        },
+        {
+          "type": "structural",
+          "severity": 4,
+          "lat": 28.6530,
+          "lng": 77.2350,
+          "location_desc": "Kinari Bazaar, heritage building facades fallen",
+          "density_index": 0.9,
+          "infra_weight": 0.5,
+          "required_skills": ["search", "extraction"]
+        },
+        {
+          "type": "structural",
+          "severity": 4,
+          "lat": 28.6420,
+          "lng": 77.2230,
+          "location_desc": "Hauz Qazi crossing, road buckled",
+          "density_index": 0.85,
+          "infra_weight": 0.5,
+          "required_skills": ["search", "crowd_control"]
+        },
+        {
+          "type": "structural",
+          "severity": 5,
+          "lat": 28.6480,
+          "lng": 77.2380,
+          "location_desc": "Lal Kuan market, multiple shop collapses",
+          "density_index": 0.85,
+          "infra_weight": 0.2,
+          "required_skills": ["search", "extraction"]
+        },
+        {
+          "type": "structural",
+          "severity": 4,
+          "lat": 28.6550,
+          "lng": 77.2290,
+          "location_desc": "Town Hall area, government building crack",
+          "density_index": 0.8,
+          "infra_weight": 1.0,
+          "required_skills": ["search"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_003",
+          "polygon": [
+            [28.6400, 77.2180],
+            [28.6580, 77.2220],
+            [28.6600, 77.2420],
+            [28.6530, 77.2440],
+            [28.6380, 77.2320]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 2,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "medical",
+          "severity": 5,
+          "lat": 28.6490,
+          "lng": 77.2300,
+          "location_desc": "Trapped civilians under rubble, Chandni Chowk",
+          "density_index": 0.95,
+          "infra_weight": 0.2,
+          "required_skills": ["medical", "extraction"]
+        },
+        {
+          "type": "medical",
+          "severity": 4,
+          "lat": 28.6460,
+          "lng": 77.2250,
+          "location_desc": "Crush injuries at Fatehpuri market",
+          "density_index": 0.9,
+          "infra_weight": 0.2,
+          "required_skills": ["medical"]
+        },
+        {
+          "type": "medical",
+          "severity": 4,
+          "lat": 28.6540,
+          "lng": 77.2370,
+          "location_desc": "Head injuries from falling debris, Dariba Kalan",
+          "density_index": 0.85,
+          "infra_weight": 0.2,
+          "required_skills": ["medical"]
+        },
+        {
+          "type": "medical",
+          "severity": 3,
+          "lat": 28.6430,
+          "lng": 77.2210,
+          "location_desc": "Panic injuries in crowd at Chawri Bazaar metro",
+          "density_index": 0.9,
+          "infra_weight": 0.5,
+          "required_skills": ["medical", "crowd_control"]
+        }
+      ],
+      "hazard_updates": []
+    },
+    {
+      "tick": 3,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "structural",
+          "severity": 3,
+          "lat": 28.6450,
+          "lng": 77.2190,
+          "location_desc": "Road blocked by debris — Chawri Bazaar Rd",
+          "density_index": 0.85,
+          "infra_weight": 0.5,
+          "required_skills": ["fire", "extraction"]
+        },
+        {
+          "type": "structural",
+          "severity": 3,
+          "lat": 28.6520,
+          "lng": 77.2340,
+          "location_desc": "Road blocked — Nai Sarak overpass cracked",
+          "density_index": 0.8,
+          "infra_weight": 0.5,
+          "required_skills": ["fire", "extraction"]
+        }
+      ],
+      "hazard_updates": []
+    },
+    {
+      "tick": 4,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "structural",
+          "severity": 4,
+          "lat": 28.6410,
+          "lng": 77.2260,
+          "location_desc": "Gas leak from ruptured pipeline, Ajmeri Gate",
+          "density_index": 0.8,
+          "infra_weight": 0.5,
+          "required_skills": ["fire", "crowd_control"]
+        }
+      ],
+      "hazard_updates": []
+    },
+    {
+      "tick": 5,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "structural",
+          "severity": 3,
+          "lat": 28.6560,
+          "lng": 77.2400,
+          "location_desc": "Road blocked — Church Mission Rd debris",
+          "density_index": 0.75,
+          "infra_weight": 0.5,
+          "required_skills": ["extraction"]
+        }
+      ],
+      "hazard_updates": []
+    },
+    {
+      "tick": 6,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_003",
+          "polygon": [
+            [28.6400, 77.2180],
+            [28.6580, 77.2220],
+            [28.6600, 77.2420],
+            [28.6530, 77.2440],
+            [28.6380, 77.2320]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 7,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_003",
+          "polygon": [
+            [28.6400, 77.2180],
+            [28.6580, 77.2220],
+            [28.6600, 77.2420],
+            [28.6530, 77.2440],
+            [28.6380, 77.2320]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 8,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_003",
+          "polygon": [
+            [28.6400, 77.2180],
+            [28.6580, 77.2220],
+            [28.6600, 77.2420],
+            [28.6530, 77.2440],
+            [28.6380, 77.2320]
+          ]
+        }
+      ]
+    }
+  ]
+}

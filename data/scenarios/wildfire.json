@@ -1,0 +1,242 @@
+{
+  "scenario": "wildfire",
+  "description": "Wildfire spreading northeast from the Ridge forest area toward urban settlements",
+  "ticks": [
+    {
+      "tick": 1,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "fire",
+          "severity": 3,
+          "lat": 28.6620,
+          "lng": 77.1800,
+          "location_desc": "Ridge forest, brush fire near Northern Ridge",
+          "density_index": 0.3,
+          "infra_weight": 0.2,
+          "required_skills": ["fire"]
+        },
+        {
+          "type": "fire",
+          "severity": 2,
+          "lat": 28.6650,
+          "lng": 77.1850,
+          "location_desc": "Kamla Nehru Ridge, dry grass fire",
+          "density_index": 0.25,
+          "infra_weight": 0.2,
+          "required_skills": ["fire"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6520, 77.1830],
+            [28.6640, 77.1970],
+            [28.6610, 77.2080],
+            [28.6500, 77.2020]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 2,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6530, 77.1840],
+            [28.6680, 77.2000],
+            [28.6640, 77.2120],
+            [28.6510, 77.2040]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 3,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "fire",
+          "severity": 3,
+          "lat": 28.6680,
+          "lng": 77.1950,
+          "location_desc": "Hindu Rao Hospital perimeter, trees ablaze",
+          "density_index": 0.5,
+          "infra_weight": 1.0,
+          "required_skills": ["fire", "extraction"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6540, 77.1850],
+            [28.6720, 77.2040],
+            [28.6680, 77.2170],
+            [28.6520, 77.2060]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 4,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "medical",
+          "severity": 4,
+          "lat": 28.6670,
+          "lng": 77.1980,
+          "location_desc": "Smoke inhalation victims near Ridge Rd",
+          "density_index": 0.5,
+          "infra_weight": 0.5,
+          "required_skills": ["medical"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6540, 77.1860],
+            [28.6760, 77.2080],
+            [28.6710, 77.2220],
+            [28.6530, 77.2080]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 5,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "fire",
+          "severity": 4,
+          "lat": 28.6730,
+          "lng": 77.2050,
+          "location_desc": "Model Town border, fire approaching residential area",
+          "density_index": 0.7,
+          "infra_weight": 0.2,
+          "required_skills": ["fire", "crowd_control"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6545, 77.1865],
+            [28.6800, 77.2120],
+            [28.6740, 77.2270],
+            [28.6535, 77.2100]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 6,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "fire",
+          "severity": 5,
+          "lat": 28.6680,
+          "lng": 77.1950,
+          "location_desc": "Hindu Rao Hospital perimeter — fire intensity critical",
+          "density_index": 0.5,
+          "infra_weight": 1.0,
+          "required_skills": ["fire", "extraction"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6545, 77.1870],
+            [28.6840, 77.2160],
+            [28.6770, 77.2320],
+            [28.6540, 77.2120]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 7,
+      "delay_seconds": 0,
+      "new_incidents": [
+        {
+          "type": "fire",
+          "severity": 4,
+          "lat": 28.6810,
+          "lng": 77.2180,
+          "location_desc": "GTB Nagar market, embers threatening shops",
+          "density_index": 0.8,
+          "infra_weight": 0.5,
+          "required_skills": ["fire"]
+        }
+      ],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6548, 77.1875],
+            [28.6870, 77.2200],
+            [28.6800, 77.2370],
+            [28.6545, 77.2140]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 8,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6550, 77.1878],
+            [28.6860, 77.2190],
+            [28.6790, 77.2360],
+            [28.6548, 77.2135]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 9,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6555, 77.1880],
+            [28.6850, 77.2180],
+            [28.6780, 77.2350],
+            [28.6550, 77.2130]
+          ]
+        }
+      ]
+    },
+    {
+      "tick": 10,
+      "delay_seconds": 0,
+      "new_incidents": [],
+      "hazard_updates": [
+        {
+          "id": "hz_002",
+          "polygon": [
+            [28.6558, 77.1882],
+            [28.6840, 77.2170],
+            [28.6770, 77.2340],
+            [28.6552, 77.2125]
+          ]
+        }
+      ]
+    }
+  ]
+}
