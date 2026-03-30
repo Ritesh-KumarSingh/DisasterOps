@@ -13,7 +13,10 @@
       "assigned_resource_id": null,
       "density_index": 0.9,
       "infra_weight": 0.5,
-      "required_skills": ["extraction", "medical"],
+      "required_skills": [
+        "extraction",
+        "medical"
+      ],
       "score_breakdown": null
     },
     {
@@ -29,7 +32,9 @@
       "assigned_resource_id": null,
       "density_index": 0.95,
       "infra_weight": 0.5,
-      "required_skills": ["extraction"],
+      "required_skills": [
+        "extraction"
+      ],
       "score_breakdown": null
     },
     {
@@ -45,7 +50,9 @@
       "assigned_resource_id": null,
       "density_index": 0.6,
       "infra_weight": 0.2,
-      "required_skills": ["extraction"],
+      "required_skills": [
+        "extraction"
+      ],
       "score_breakdown": null
     },
     {
@@ -53,7 +60,7 @@
       "type": "flood",
       "severity": 4,
       "lat": 28.5785,
-      "lng": 77.2340,
+      "lng": 77.234,
       "location_desc": "Nizamuddin East, flooded residential colony",
       "reported_at": "2024-01-15T09:30:00Z",
       "status": "open",
@@ -61,15 +68,18 @@
       "assigned_resource_id": null,
       "density_index": 0.85,
       "infra_weight": 0.2,
-      "required_skills": ["extraction", "crowd_control"],
+      "required_skills": [
+        "extraction",
+        "crowd_control"
+      ],
       "score_breakdown": null
     },
     {
       "id": "inc_005",
       "type": "flood",
       "severity": 3,
-      "lat": 28.6180,
-      "lng": 77.2090,
+      "lat": 28.618,
+      "lng": 77.209,
       "location_desc": "Connaught Place basement flooding",
       "reported_at": "2024-01-15T09:35:00Z",
       "status": "open",
@@ -77,15 +87,17 @@
       "assigned_resource_id": null,
       "density_index": 1.0,
       "infra_weight": 0.5,
-      "required_skills": ["extraction"],
+      "required_skills": [
+        "extraction"
+      ],
       "score_breakdown": null
     },
     {
       "id": "inc_006",
       "type": "flood",
       "severity": 2,
-      "lat": 28.6350,
-      "lng": 77.2250,
+      "lat": 28.635,
+      "lng": 77.225,
       "location_desc": "Civil Lines, waterlogged streets",
       "reported_at": "2024-01-15T09:40:00Z",
       "status": "open",
@@ -93,7 +105,9 @@
       "assigned_resource_id": null,
       "density_index": 0.5,
       "infra_weight": 0.2,
-      "required_skills": ["crowd_control"],
+      "required_skills": [
+        "crowd_control"
+      ],
       "score_breakdown": null
     },
     {
@@ -109,7 +123,10 @@
       "assigned_resource_id": null,
       "density_index": 0.8,
       "infra_weight": 0.5,
-      "required_skills": ["fire", "extraction"],
+      "required_skills": [
+        "fire",
+        "extraction"
+      ],
       "score_breakdown": null
     },
     {
@@ -125,15 +142,17 @@
       "assigned_resource_id": null,
       "density_index": 0.95,
       "infra_weight": 0.2,
-      "required_skills": ["fire"],
+      "required_skills": [
+        "fire"
+      ],
       "score_breakdown": null
     },
     {
       "id": "inc_009",
       "type": "fire",
       "severity": 2,
-      "lat": 28.5530,
-      "lng": 77.2590,
+      "lat": 28.553,
+      "lng": 77.259,
       "location_desc": "Govindpuri slum area, cooking fire spread",
       "reported_at": "2024-01-15T09:55:00Z",
       "status": "open",
@@ -141,7 +160,10 @@
       "assigned_resource_id": null,
       "density_index": 0.7,
       "infra_weight": 0.2,
-      "required_skills": ["fire", "medical"],
+      "required_skills": [
+        "fire",
+        "medical"
+      ],
       "score_breakdown": null
     },
     {
@@ -149,7 +171,7 @@
       "type": "medical",
       "severity": 4,
       "lat": 28.5672,
-      "lng": 77.2100,
+      "lng": 77.21,
       "location_desc": "AIIMS trauma centre overflow, patients in corridor",
       "reported_at": "2024-01-15T10:00:00Z",
       "status": "open",
@@ -157,7 +179,9 @@
       "assigned_resource_id": null,
       "density_index": 0.75,
       "infra_weight": 1.0,
-      "required_skills": ["medical"],
+      "required_skills": [
+        "medical"
+      ],
       "score_breakdown": null
     },
     {
@@ -173,7 +197,9 @@
       "assigned_resource_id": null,
       "density_index": 0.65,
       "infra_weight": 0.2,
-      "required_skills": ["medical"],
+      "required_skills": [
+        "medical"
+      ],
       "score_breakdown": null
     },
     {
@@ -189,15 +215,18 @@
       "assigned_resource_id": null,
       "density_index": 0.55,
       "infra_weight": 0.5,
-      "required_skills": ["medical", "extraction"],
+      "required_skills": [
+        "medical",
+        "extraction"
+      ],
       "score_breakdown": null
     },
     {
       "id": "inc_013",
       "type": "medical",
       "severity": 1,
-      "lat": 28.5440,
-      "lng": 77.1930,
+      "lat": 28.544,
+      "lng": 77.193,
       "location_desc": "Vasant Kunj, minor injuries from falling tree",
       "reported_at": "2024-01-15T10:15:00Z",
       "status": "open",
@@ -205,15 +234,17 @@
       "assigned_resource_id": null,
       "density_index": 0.3,
       "infra_weight": 0.2,
-      "required_skills": ["medical"],
+      "required_skills": [
+        "medical"
+      ],
       "score_breakdown": null
     },
     {
       "id": "inc_014",
       "type": "structural",
       "severity": 4,
-      "lat": 28.6510,
-      "lng": 77.2310,
+      "lat": 28.651,
+      "lng": 77.231,
       "location_desc": "Old Delhi, heritage building wall collapse",
       "reported_at": "2024-01-15T10:20:00Z",
       "status": "open",
@@ -221,15 +252,18 @@
       "assigned_resource_id": null,
       "density_index": 0.9,
       "infra_weight": 0.5,
-      "required_skills": ["search", "extraction"],
+      "required_skills": [
+        "search",
+        "extraction"
+      ],
       "score_breakdown": null
     },
     {
       "id": "inc_015",
       "type": "structural",
       "severity": 2,
-      "lat": 28.5850,
-      "lng": 77.2450,
+      "lat": 28.585,
+      "lng": 77.245,
       "location_desc": "Lajpat Nagar, cracked building facade",
       "reported_at": "2024-01-15T10:25:00Z",
       "status": "open",
@@ -237,7 +271,9 @@
       "assigned_resource_id": null,
       "density_index": 0.7,
       "infra_weight": 0.2,
-      "required_skills": ["search"],
+      "required_skills": [
+        "search"
+      ],
       "score_breakdown": null
     }
   ],
@@ -249,10 +285,13 @@
       "capacity": 2,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5685,
-      "lng": 77.2115,
+      "lat": 28.9206,
+      "lng": 77.62770000000002,
       "eta_minutes": null,
-      "skills": ["medical", "extraction"]
+      "skills": [
+        "medical",
+        "extraction"
+      ]
     },
     {
       "id": "res_amb_02",
@@ -261,10 +300,13 @@
       "capacity": 2,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6250,
-      "lng": 77.2190,
+      "lat": 28.9771,
+      "lng": 77.63520000000001,
       "eta_minutes": null,
-      "skills": ["medical", "extraction"]
+      "skills": [
+        "medical",
+        "extraction"
+      ]
     },
     {
       "id": "res_amb_03",
@@ -273,10 +315,13 @@
       "capacity": 2,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6350,
-      "lng": 77.1800,
+      "lat": 28.9871,
+      "lng": 77.59620000000002,
       "eta_minutes": null,
-      "skills": ["medical", "extraction"]
+      "skills": [
+        "medical",
+        "extraction"
+      ]
     },
     {
       "id": "res_amb_04",
@@ -285,10 +330,13 @@
       "capacity": 2,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5510,
-      "lng": 77.2500,
+      "lat": 28.9031,
+      "lng": 77.66620000000002,
       "eta_minutes": null,
-      "skills": ["medical", "extraction"]
+      "skills": [
+        "medical",
+        "extraction"
+      ]
     },
     {
       "id": "res_amb_05",
@@ -297,10 +345,13 @@
       "capacity": 2,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6480,
-      "lng": 77.2280,
+      "lat": 29.0001,
+      "lng": 77.64420000000001,
       "eta_minutes": null,
-      "skills": ["medical", "extraction"]
+      "skills": [
+        "medical",
+        "extraction"
+      ]
     },
     {
       "id": "res_fire_01",
@@ -309,10 +360,13 @@
       "capacity": 4,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6520,
-      "lng": 77.1920,
+      "lat": 29.0041,
+      "lng": 77.60820000000001,
       "eta_minutes": null,
-      "skills": ["fire", "extraction"]
+      "skills": [
+        "fire",
+        "extraction"
+      ]
     },
     {
       "id": "res_fire_02",
@@ -321,10 +375,13 @@
       "capacity": 4,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6400,
-      "lng": 77.2200,
+      "lat": 28.9921,
+      "lng": 77.63620000000002,
       "eta_minutes": null,
-      "skills": ["fire", "extraction"]
+      "skills": [
+        "fire",
+        "extraction"
+      ]
     },
     {
       "id": "res_fire_03",
@@ -333,10 +390,13 @@
       "capacity": 4,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5760,
-      "lng": 77.2350,
+      "lat": 28.9281,
+      "lng": 77.65120000000002,
       "eta_minutes": null,
-      "skills": ["fire", "extraction"]
+      "skills": [
+        "fire",
+        "extraction"
+      ]
     },
     {
       "id": "res_fire_04",
@@ -345,10 +405,13 @@
       "capacity": 4,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5950,
-      "lng": 77.1950,
+      "lat": 28.9471,
+      "lng": 77.61120000000001,
       "eta_minutes": null,
-      "skills": ["fire", "extraction"]
+      "skills": [
+        "fire",
+        "extraction"
+      ]
     },
     {
       "id": "res_fire_05",
@@ -357,10 +420,13 @@
       "capacity": 4,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5600,
-      "lng": 77.2700,
+      "lat": 28.9121,
+      "lng": 77.68620000000001,
       "eta_minutes": null,
-      "skills": ["fire", "extraction"]
+      "skills": [
+        "fire",
+        "extraction"
+      ]
     },
     {
       "id": "res_pol_01",
@@ -369,10 +435,13 @@
       "capacity": 6,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6130,
-      "lng": 77.2295,
+      "lat": 28.9651,
+      "lng": 77.64570000000002,
       "eta_minutes": null,
-      "skills": ["crowd_control", "search"]
+      "skills": [
+        "crowd_control",
+        "search"
+      ]
     },
     {
       "id": "res_pol_02",
@@ -381,10 +450,13 @@
       "capacity": 6,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6300,
-      "lng": 77.2100,
+      "lat": 28.9821,
+      "lng": 77.62620000000001,
       "eta_minutes": null,
-      "skills": ["crowd_control", "search"]
+      "skills": [
+        "crowd_control",
+        "search"
+      ]
     },
     {
       "id": "res_pol_03",
@@ -393,10 +465,13 @@
       "capacity": 6,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5850,
-      "lng": 77.2000,
+      "lat": 28.9371,
+      "lng": 77.61620000000002,
       "eta_minutes": null,
-      "skills": ["crowd_control", "search"]
+      "skills": [
+        "crowd_control",
+        "search"
+      ]
     },
     {
       "id": "res_pol_04",
@@ -405,10 +480,13 @@
       "capacity": 6,
       "current_load": 0,
       "status": "available",
-      "lat": 28.6550,
-      "lng": 77.2350,
+      "lat": 29.0071,
+      "lng": 77.65120000000002,
       "eta_minutes": null,
-      "skills": ["crowd_control", "search"]
+      "skills": [
+        "crowd_control",
+        "search"
+      ]
     },
     {
       "id": "res_pol_05",
@@ -417,10 +495,13 @@
       "capacity": 6,
       "current_load": 0,
       "status": "available",
-      "lat": 28.5430,
-      "lng": 77.1950,
+      "lat": 28.8951,
+      "lng": 77.61120000000001,
       "eta_minutes": null,
-      "skills": ["crowd_control", "search"]
+      "skills": [
+        "crowd_control",
+        "search"
+      ]
     }
   ],
   "hazard_zones": [
@@ -429,11 +510,26 @@
       "type": "flood",
       "risk_level": 0.8,
       "polygon": [
-        [28.5900, 77.2150],
-        [28.6000, 77.2300],
-        [28.6150, 77.2350],
-        [28.6200, 77.2200],
-        [28.6100, 77.2050]
+        [
+          28.59,
+          77.215
+        ],
+        [
+          28.6,
+          77.23
+        ],
+        [
+          28.615,
+          77.235
+        ],
+        [
+          28.62,
+          77.22
+        ],
+        [
+          28.61,
+          77.205
+        ]
       ]
     },
     {
@@ -441,10 +537,22 @@
       "type": "fire",
       "risk_level": 0.6,
       "polygon": [
-        [28.6500, 77.1850],
-        [28.6600, 77.1950],
-        [28.6580, 77.2050],
-        [28.6480, 77.2000]
+        [
+          28.65,
+          77.185
+        ],
+        [
+          28.66,
+          77.195
+        ],
+        [
+          28.658,
+          77.205
+        ],
+        [
+          28.648,
+          77.2
+        ]
       ]
     },
     {
@@ -452,11 +560,26 @@
       "type": "structural",
       "risk_level": 0.7,
       "polygon": [
-        [28.6450, 77.2200],
-        [28.6550, 77.2250],
-        [28.6570, 77.2380],
-        [28.6500, 77.2400],
-        [28.6430, 77.2300]
+        [
+          28.645,
+          77.22
+        ],
+        [
+          28.655,
+          77.225
+        ],
+        [
+          28.657,
+          77.238
+        ],
+        [
+          28.65,
+          77.24
+        ],
+        [
+          28.643,
+          77.23
+        ]
       ]
     }
   ]

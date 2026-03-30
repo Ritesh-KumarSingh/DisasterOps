@@ -1,11 +1,12 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
+const API_BASE = import.meta.env.VITE_API_BASE || '';
 
 export function useMapState(pollInterval = 5000) {
   const [incidents, setIncidents] = useState([]);
   const [resources, setResources] = useState([]);
+  const [assignments, setAssignments] = useState([]);
   const [hazardZones, setHazardZones] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -17,6 +18,7 @@ export function useMapState(pollInterval = 5000) {
       const res = await axios.get(`${API_BASE}/map-state`);
       setIncidents(res.data.incidents || []);
       setResources(res.data.resources || []);
+      setAssignments(res.data.assignments || []);
       setHazardZones(res.data.hazard_zones || []);
       setLastUpdated(new Date());
       setError(null);
@@ -33,7 +35,7 @@ export function useMapState(pollInterval = 5000) {
     return () => clearInterval(intervalRef.current);
   }, [fetchMapState, pollInterval]);
 
-  return { incidents, resources, hazardZones, loading, error, lastUpdated, refetch: fetchMapState };
+  return { incidents, resources, assignments, hazardZones, loading, error, lastUpdated, refetch: fetchMapState };
 }
 
 export function useKpis(pollInterval = 10000) {
@@ -60,11 +62,6 @@ export function useKpis(pollInterval = 10000) {
   return kpis;
 }
 
-export async function startScenario(name) {
-  const res = await axios.post(`${API_BASE}/scenarios/${name}/start`);
-  return res.data;
-}
-
 export async function createIncident(data) {
   const res = await axios.post(`${API_BASE}/incidents`, data);
   return res.data;
@@ -86,3 +83,19 @@ export async function getAssignments() {
   const res = await axios.get(`${API_BASE}/assignments`);
   return res.data;
 }
+
+export async function updateAssignmentStatus(id, status) {
+  const res = await axios.post(`${API_BASE}/assignments/${id}/status?status=${status}`);
+  return res.data;
+}
+
+export async function resolveAssignment(id) {
+  const res = await axios.post(`${API_BASE}/assignments/${id}/resolve`);
+  return res.data;
+}
+
+export async function requestBackup(incidentId) {
+  const res = await axios.post(`${API_BASE}/incidents/${incidentId}/backup`);
+  return res.data;
+}
+

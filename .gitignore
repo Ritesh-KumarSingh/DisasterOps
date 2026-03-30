@@ -22,3 +22,5 @@ build/
 .next/
 out/
 .vercel
+.venv/
+*.db

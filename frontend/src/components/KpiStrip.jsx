@@ -2,7 +2,6 @@ import { useKpis } from '../hooks/useMapState';
 
 export default function KpiStrip() {
   const kpis = useKpis();
-
   const totalOpen = Object.values(kpis.open_by_severity).reduce((a, b) => a + b, 0);
 
   return (

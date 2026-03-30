@@ -1,6 +1,12 @@
-# In-memory state store
-INCIDENTS = {}
+# State module - now primarily handles memory-only state like events
+# Incidents, Resources, and Assignments are now in SQLite
+
+EVENT_LOG = []
+HAZARD_ZONES = []
+
+# Cache-like access if needed, but we'll mostly use database.py
+INCIDENTS = {} 
 RESOURCES = {}
 ASSIGNMENTS = {}
-HAZARD_ZONES = []
-EVENT_LOG = []
+
+AUTO_DISPATCH = True
